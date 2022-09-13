@@ -1,0 +1,9 @@
+name = "deploys-do"
+account_id = "b6641681fe423910342b9ffa1364c76d"
+route = { pattern = "*/*", zone_id = "082956854f486c50c987dc9eab1f3d02" }
+main = "worker.js"
+compatibility_date = "2022-08-23"
+
+[[dispatch_namespaces]]
+binding = "dispatcher"
+namespace = "my-dispatch-namespace"
